@@ -16,6 +16,10 @@ pixelsRange.addEventListener('input',()=>{
         canvas.style.gridTemplateColumns = `repeat(${pixelsRange.value},auto)`
         canvas.appendChild(pixel);
 
+        pixel.addEventListener('mouseover',(e)=>{
+            e.target.style.background= 'black';
+        })
+
         rangeText.innerHTML = `${pixelsRange.value}X${pixelsRange.value}`
     }
 })
