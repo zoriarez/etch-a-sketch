@@ -1,0 +1,31 @@
+body{margin: 0%;}
+#mainContainer{
+
+}
+#toolsContainer{
+    display: flex;
+    border: solid black;
+}
+#RangeText{
+    width:40px;
+    border: solid gray;
+}
+#canvasContainer{
+border: solid black;
+height: 1000px;
+width: 1000px;
+
+
+}
+#Canvas{
+    height: 500px;
+    width: 500px;
+    background-color: beige;
+    border: solid black;
+    border-style: outset;
+}
+
+.gridPixels{
+    background-color: aliceblue;
+    border: 1px solid black;
+}
