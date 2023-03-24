@@ -4,8 +4,8 @@ body{margin: 0%;}
     display: flex;
     border: solid black;
 }
-#RangeText{
-    width:40px;
+#rangeText{
+    width:45px;
     border: solid gray;
 }
 #canvasContainer{

@@ -15,6 +15,8 @@ pixelsRange.addEventListener('input',()=>{
 
         canvas.style.gridTemplateColumns = `repeat(${pixelsRange.value},auto)`
         canvas.appendChild(pixel);
+
+        rangeText.innerHTML = `${pixelsRange.value}X${pixelsRange.value}`
     }
 })
 
